@@ -1,0 +1,35 @@
+{
+    "name": "thinkphp6/thinkphp-migration-generator",
+    "description": "generator migration files if you never use it",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Matt",
+            "email": "git@ninetian.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^7.1",
+        "doctrine/dbal": "^2.9"
+    },
+    "autoload": {
+        "psr-4": {
+            "JaguarJack\\MigrateGenerator\\": "src"
+        },
+        "files": []
+    },
+    "extra": {
+        "think": {
+            "services": [
+                "JaguarJack\\MigrateGenerator\\Provider\\ThinkphpMigrateGeneratorService"
+            ]
+        },
+        "laravel": {
+            "providers": [
+                "JaguarJack\\MigrateGenerator\\Provider\\LaravelMigrateGeneratorServiceProvider"
+            ]
+        }
+    }
+}
