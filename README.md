@@ -15,7 +15,7 @@
 
 ## 安装
 ```sh
-composer require ninetian/migration-generator:dev-master
+composer require thinkphp6/migration-generator:dev-master
 ```
 
 ## 平台支持
