@@ -3,6 +3,14 @@
     "description": "generator migration files if you never use it",
     "type": "library",
     "license": "MIT",
+   "keywords":[
+      "thinkphp",
+      "thinkphp6",
+      "tp6",
+      "migration",
+      "database-migration",
+      "database-migration-generator"
+   ],
     "authors": [
         {
             "name": "Matt",
