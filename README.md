@@ -12,10 +12,9 @@
  - [x] 增加SimpleArrayType 修复Set类型导致异常问题
         
         
-
 ## 安装
 ```sh
-composer require thinkphp6/migration-generator:dev-master
+composer require thinkphp6/migration-generator:dev-main
 ```
 
 ## 平台支持
