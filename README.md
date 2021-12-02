@@ -14,7 +14,7 @@
         
 ## 安装
 ```sh
-composer require thinkphp6/migration-generator:dev-main
+composer require thinkphp6/thinkphp-migration-generator:dev-main
 ```
 
 ## 平台支持
